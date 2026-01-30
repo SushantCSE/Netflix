@@ -157,7 +157,58 @@ body {
 
 .questions{
   padding: 40px 120px;
-  color: rgb(55, 48, 48);
+  color: rgb(232, 226, 226);
   background-color: black;
-  
 }
+
+.faq-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.faq-item .faq-question{
+  background-color: rgb(41, 40, 44);
+  margin-bottom: 10px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  height: 80px;
+  width: 1000px;
+  font-size: medium;
+  border-radius: 8px;
+}
+
+.faq-icon{
+  margin-left: 795px;
+  display: flex;
+  align-items: center;
+}
+
+.faq-icon2{
+  margin-left: 700px;
+   display: flex;
+  align-items: center;
+}
+.faq-icon3{
+  margin-left: 765px;
+   display: flex;
+  align-items: center;
+}
+.faq-icon4{
+  margin-left: 785px;
+   display: flex;
+  align-items: center;
+}
+.faq-icon5{
+  margin-left: 705px;
+   display: flex;
+  align-items: center;
+}
+.faq-icon6{
+  margin-left: 740px;
+   display: flex;
+  align-items: center;
+}
+/* question section end */
