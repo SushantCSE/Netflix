@@ -267,22 +267,25 @@ body {
 
 .footer {
   padding: 40px 120px;
-  color: gray;
+  height: 500px;
+  color: rgb(180, 180, 180);
   background-color: black;
+  font-size: 16px;
 }
+
 .footer-links {
   display: flex;
   padding: 20px;
-  flex-wrap: wrap;
-  border: 2px solid gray;
-  gap: 20px;
+  /* flex-wrap: wrap; */
+  /* gap: 20px; */
+  flex-direction: column;
 }
+
 .footer-links a {
-  color: gray;
-  gap: 20px;
-  border: 2px solid gray;
+  color: rgb(180, 180, 180);
   font-size: 14px;
 }
+
 .footer-lang {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -290,6 +293,7 @@ body {
   align-items: center;
   gap: 10px;
 }
+
 .footer-lang select {
   padding: 4px 8px;
   border-radius: 4px;
@@ -297,8 +301,16 @@ body {
   color: rgb(227, 220, 220);
   border: 1px solid gray;
 }
-.footer-note {
+
+.footer-note{
   margin-top: 20px;
   font-size: 12px;
+  color: gray;
 }
+
+span a{
+  color: rgb(65, 119, 219);
+  font-size: small;
+}
+
 /* footer section end */
